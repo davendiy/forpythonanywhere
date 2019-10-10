@@ -1,0 +1,3 @@
+/files/univer/python/course3/hackatons/materials/algo/Лабораторні роботи - Алгоритми і структури даних.pdf
+/files/univer/python/course3/hackatons/materials/algo/Алгоритми та структури даних.pdf
+/files/univer/python/course3/hackatons/materials/algo/Програма курсу Алгоритми і структури даних.pdf

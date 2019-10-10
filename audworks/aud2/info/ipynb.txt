@@ -1,0 +1,6 @@
+/files/univer/python/course3/algorithm_analysis/labwork3.ipynb
+/files/univer/python/course3/algorithm_analysis/labwork2.ipynb
+/files/univer/python/course3/algorithm_analysis/.ipynb_checkpoints/labwork3-checkpoint.ipynb
+/files/univer/python/course3/algorithm_analysis/labwork1.ipynb
+/files/univer/python/course3/algorithm_analysis/.ipynb_checkpoints/labwork1-checkpoint.ipynb
+/files/univer/python/course3/algorithm_analysis/.ipynb_checkpoints/labwork2-checkpoint.ipynb
