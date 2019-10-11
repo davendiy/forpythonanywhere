@@ -83,13 +83,5 @@ def test():
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 1:
-        test()
-        exit(0)
-    try:
-        opts, args = getopt.getopt(sys.argv[1:], "h:p:r:s",
-                                   ["help", "path", "format", "chunk"])
-    except getopt.GetoptError as err:
-        print(str(err))
-        usage()
-        exit(0)
+    test()
+
