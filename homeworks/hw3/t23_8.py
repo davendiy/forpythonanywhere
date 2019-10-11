@@ -16,8 +16,6 @@ in all the Word-files in some directory.
 import re
 import docx
 import os
-import getopt
-import sys
 import datetime
 
 
@@ -31,7 +29,7 @@ def usage():
 def _find_replace(regex, sub, filename):
     doc = docx.Document(filename)
     for par in doc.paragraphs:
-            par.text = regex.sub(sub, par.text)
+        par.text = regex.sub(sub, par.text)
     doc.save(filename)
 
 
@@ -84,4 +82,3 @@ def test():
 
 if __name__ == '__main__':
     test()
-
