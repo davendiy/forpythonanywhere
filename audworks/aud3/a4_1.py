@@ -18,6 +18,6 @@ def clock():
         time.sleep(1)
 
 
-thread = threading.Thread(target=clock())
+thread = threading.Thread(target=clock)
 thread.start()
 thread.join()
