@@ -19,5 +19,8 @@ client.connect((target_host, target_port))
 while True:
     data = input("--> ")
     client.send(bytes(data, encoding='utf-8'))
+    if 'exit' in data:
+        print("[*] Closing connection...")
+        break
     resp = client.recv(4096)
     print(resp)

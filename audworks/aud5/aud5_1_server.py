@@ -40,9 +40,12 @@ def handler(client, addr):
             with lock:
                 tmp = eval(exp, glob)
                 glob[var.strip()] = tmp
+                logging.info(f"[-->] Sending data to {addr}...")
             client.send(bytes(str(tmp), encoding='utf-8'))
         except Exception as e:
+            logging.info(f"[-->] Sending data to {addr}...")
             client.send(bytes(str(e), encoding='utf-8'))
+
 
 server_host = ''
 server_port = 2001
