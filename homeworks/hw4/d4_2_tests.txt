@@ -1,0 +1,34 @@
+
+# test1: sum of 2 int numbers
+./d4_2_tests_program/test1.py (2, 4) (int: 6)
+./d4_2_tests_program/test1.py (2, 96) (int: 98)
+./d4_2_tests_program/test1.py (61, 10) (int: 71)
+./d4_2_tests_program/test1.py (13, 51) (int: 64)
+./d4_2_tests_program/test1.py (81, 38) (int: 119)
+./d4_2_tests_program/test1.py (4, 2) (int: 6)
+./d4_2_tests_program/test1.py (56, 21) (int: 77)
+./d4_2_tests_program/test1.py (43, 14) (int: 57)
+./d4_2_tests_program/test1.py (42, 19) (int: 61)
+./d4_2_tests_program/test1.py (41, 7) (int: 48)
+./d4_2_tests_program/test1.py (15, 52) (int: 67)
+
+# test2: a / b for a and b - float
+./d4_2_tests_program/test2.py (99.0, 39.0) (float: 2.5384615384615383)
+./d4_2_tests_program/test2.py (31.0, 53.0) (float: 0.5849056603773585)
+./d4_2_tests_program/test2.py (27.0, 15.0) (float: 1.8)
+./d4_2_tests_program/test2.py (55.0, 12.0) (float: 4.583333333333333)
+./d4_2_tests_program/test2.py (49.0, 99.0) (float: 0.494949494949495)
+./d4_2_tests_program/test2.py (85.0, 13.0) (float: 6.538461538461538)
+./d4_2_tests_program/test2.py (73.0, 30.0) (float: 2.433333333333333)
+./d4_2_tests_program/test2.py (23.0, 41.0) (float: 0.5609756097560976)
+./d4_2_tests_program/test2.py (31.0, 4.0) (float: 7.75)
+./d4_2_tests_program/test2.py (22.0, 19.0) (float: 1.1578947368421053)
+
+# test3: concatenate of 2 strings a and b
+./d4_2_tests_program/test3.py (asdasda, adfsdfa) (str: asdasdaadfsdfa)
+
+# test4: infinite loop
+./d4_2_tests_program/test4.py (2, 3) (int: 10)
+
+# test5: wrong answer
+./d4_2_tests_program/test5.py (2, 3) (int: 10)
