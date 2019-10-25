@@ -7,7 +7,6 @@
 # Taras Shevchenko National University of Kyiv
 # email: davendiy@gmail.com
 
-
 import numpy as np
 from scipy.stats import bernoulli
 
